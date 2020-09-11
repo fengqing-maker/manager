@@ -1,0 +1,1158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\file_view.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\file_view_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\class_view.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\class_view_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\fileview.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\fileview_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\classview.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\classview_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\explorer.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\explorer_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sort.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sort_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\menuimages.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\menuimages_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\output_wnd.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\output_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties_wnd.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="UserImages.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Sid_Project_Manger.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Sid_Project_MangerDoc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Sid_Project_Manger.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Dialog\button_cancel.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Dialog\button_delete.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Icon\ListIcon\Output\output_iconlist.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Icon\Title\scheduled-tasks.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Icon\Title\document-scheduled-tasks.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\Sid_Project_Manger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\Sid_Project_MangerDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\Sid_Project_MangerView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBase\AbstractDaoImp\base\DbSev.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DataBase\AbstractDaoImp\base\AdoDatabase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DataBase\AbstractDaoImp\base\AdoRecordset.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DataBase\AbstractDaoImp\MySqlImp\DbSev.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Tools\BaseThread\BaseThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Tools\BaseThread\SmartLock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Tools\TRACE_D\trace_d.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Tools\SingletonTemplate\SingletonTemplate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Tools\UtilityTool\UtilityTool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Model\User.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Model\Role.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Model\department.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Model\power.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Model\TaskStaus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Model\ProductLine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Model\TaskChange.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Model\Schedule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Model\TaskModel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DataBase\UserServer\CUserDaoImp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DataBase\factory\CDaoFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DataBase\TaskDaoImp\CTaskDaoImp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Tools\MD5\Md5Class.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DataBase\ChangeDaoImp\changeDaoImp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\connectAction\connectActionImp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\UI\CProgressDialog\CTPBMemDC.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mainframe\ui\cprogressdialog\progressdialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mainframe\ui\cprogressdialog\textprogressctrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DataBase\Project\projectDbDaoImp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\UserAction\LoginActionImp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\ProjectAction\projectSever.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\infomsg\PopProgressMsgTheard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\messageDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\GridCellCheck.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\GridCellCombo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\GridCellDateTime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\GridCellNumeric.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\GridCellProgress.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\GridURLCell.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\AbstractGridViewManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\CellRange.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\GridCell.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\GridCellBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\GridDropTarget.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\GridMemDC.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\InPlaceEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\TitleTip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\gridCellButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\comondef\comondef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\GridCellRich.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\InPlaceRichEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\comondef\RichEditCtrlEx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\gridManger\myTaskGirdManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\TaskAction\taskSeverImp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Model\Project.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\ScheduleAction\ScheduleAction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\gridManger\publishTaskManger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mainframe\ui\cgridctrl\gridctrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\MemDC.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\gridManger\scoreTaskManger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\gridManger\changeReviewManger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\changeAction\changeActionImp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\departAction\departSeverImp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\Dlg\StartTaskDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\Dlg\ChangeApplyFor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\Dlg\ChangeReviewDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\Dlg\FinisTaskDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\Dlg\hangePswDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\Dlg\NewTaskDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\Dlg\StopTaskDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\Dlg\CComonDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\BaseFormView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\prjView\ProjectTabView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\prjView\CProjectView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\baseGridManger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\taskView\changTaskView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\taskView\myTaskView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\taskView\publishTaskView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\taskView\scoreTaskView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\taskView\TaskTabView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\prjManger\projectManger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DataBase\DepartmentDaoImp\DepartmentDaoImp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\prjManger\ProjectMangerBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\prjView\CProjectTaskView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\Dlg\DlgUserChose.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\prjManger\projectTaskManger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\Dlg\NewProjectDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DataBase\ExcelDataDao\CExcelTaskDao.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DataBase\AbstractDaoImp\ExcelImp\ExcelDbSev.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Model\excelObj\CExcelTaskModel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\ExcelAction\CTaskExcelAction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Model\WorkTimeType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Model\TypeDefHead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\DepartManger\DepartMangerBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\DepartManger\DepartManger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\DepartManger\DepartTaskManger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\Dlg\DlgNewDepart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\BackManger\baseBackGridManger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\BackManger\UserGridManger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\backStageAction\BackStageActionImp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\BackView\BackStageTabView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\BackView\CUserMangerView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\Dlg\BackMangerDlg\DlgNewUser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\BackManger\ProductLineGridManger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\Dlg\BackMangerDlg\DlgNewProductLine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\BackView\CProductLineView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\BackManger\RolePowerManger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\Dlg\BackMangerDlg\SetRolePower.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\BackView\RolePowerView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\BackManger\WorkTimeTypeGridManger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\BackView\WorkTypeView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\Dlg\BackMangerDlg\NewWorkType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\UI\CMultiLineListCtrl\MultiLineListCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\Output\OutputWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\UI\CMultiLineListCtrl\MultiLineListBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\UI\COutputList\OutputList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\Output\AbstractOutputManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SrcLib\XMLWrapper\XMLParser\XMLDOMNodes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SrcLib\XMLWrapper\XMLParser\XMLCommonDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SrcLib\XMLWrapper\XMLParser\XMLDOMFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SrcLib\XMLWrapper\XMLParser\XMLDOMNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SrcLib\XMLWrapper\XMLSchema\XMLSOMFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SrcLib\XMLWrapper\XMLSchema\XMLSOMAttribute.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SrcLib\XMLWrapper\XMLSchema\XMLSOMElement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\Output\systemOutput\SvrOutputManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\Output\systemOutput\SvrOutputList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\Output\ClientOutputManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\WatchThread\WatchTaskThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\Dlg\workHour\ExportWorkHourDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\factory\actionServerFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\factory\actionWatchServerFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\inc\BackStageActionInc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\inc\changeactioninterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\inc\connectDbseverInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\inc\departSeverInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\inc\loginActionInterfac.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\inc\projectSeverInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\inc\scheduleAcionInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\inc\TaskExcelActionInc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\inc\taskSeverInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\Dlg\review\DepartProcessReview.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\Dlg\review\ProjectProcessReviewDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DataBase\system\WorkHourDb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Model\WorkHourData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DataBase\system\SystemConfigDbAdo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Model\ProjectStep.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DataBase\inc\excel\CExcelBaseInc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DataBase\inc\excel\CExcelTaskDaoInc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DataBase\inc\changeDaointerface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DataBase\inc\cuserdaointerface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DataBase\inc\daocomonDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DataBase\inc\daosupportinterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DataBase\inc\departmentInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DataBase\inc\projectDbDaoInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DataBase\inc\SystemCfgDbInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DataBase\inc\taskdaointerface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DataBase\inc\WorkHourDbInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\Dlg\workHour\AskForLeaveDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\workHourAction\WorkHourSeverImp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\inc\WorkHourActionInc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\SystemConfig\SystemConfigImp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\inc\SystemConfigInc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\gridManger\WorkHourManger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\taskView\WorkHourView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\Dlg\review\CModiyTaskScoreDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\ExcelAction\CExportPerformanceTable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\LibHeard\excelLib\CWorksheets.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\LibHeard\excelLib\CApplication.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\LibHeard\excelLib\CBorder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\LibHeard\excelLib\CBorders.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\LibHeard\excelLib\CFont0.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\LibHeard\excelLib\Cnterior.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\LibHeard\excelLib\CPicture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\LibHeard\excelLib\CRange.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\LibHeard\excelLib\CShape.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\LibHeard\excelLib\CShapes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\LibHeard\excelLib\CWorkbook.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\LibHeard\excelLib\CWorkbooks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\action\LibHeard\excelLib\CWorksheet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\gridManger\ForecastWorkHour.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\taskView\ForecastWorkHourView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\prjView\CProjectScheduleView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\print\PreView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DataBase\UserDaoImp\CUserDaoImp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\Dlg\DlgTaskPictrueView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\UI\BluFontBotton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\UI\NewEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\DepartView\CDepartTaskView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\DepartView\CDepartView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainFrame\view\DepartView\DepartTabView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\Sid_Project_Manger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\Sid_Project_MangerDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\Sid_Project_MangerView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DataBase\AbstractDaoImp\base\AdoDatabase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DataBase\AbstractDaoImp\base\AdoRecordset.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DataBase\AbstractDaoImp\MySqlImp\DbSev.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Tools\BaseThread\BaseThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Tools\BaseThread\SmartLock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Tools\UtilityTool\UtilityTool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Model\User.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Model\TaskStaus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Model\TaskModel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DataBase\factory\CDaoFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Tools\MD5\Md5Class.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Model\schedule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DataBase\ChangeDaoImp\changDaoImp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Model\TaskChange.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\action\connectAction\connectActionImp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\UI\CProgressDialog\ProgressDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\UI\CProgressDialog\TextProgressCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Model\department.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DataBase\Project\projectDbDaoImp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\action\UserAction\LoginActionImp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\action\ProjectAction\projectSeverImp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\infomsg\PopProgressMsgTheard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\GridCellCheck.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\GridCellDateTime.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\GridCellNumeric.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\GridCellProgress.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\GridURLCell.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\AbstractGridViewManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\GridCell.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\GridCellBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\GridDropTarget.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\InPlaceEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\TitleTip.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\gridCellButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\GridCellRich.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\InPlaceRichEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\comondef\RichEidtCtrlEx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\gridManger\myTaskGirdManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\action\TaskAction\taskSeverImp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Model\Project.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Model\ProductLine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\action\ScheduleAction\ScheduleAction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\gridManger\publishTaskManger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\GridCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\gridManger\scoreTaskManger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\gridManger\changeReviewManger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\action\changeAction\changeActionImp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\action\departAction\departSeverImp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\Dlg\ChangeApplyFor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\Dlg\ChangeReviewDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\Dlg\FinisTaskDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\Dlg\hangePswDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\Dlg\NewTaskDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\Dlg\StartTaskDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\Dlg\StopTaskDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\Dlg\CComonDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\BaseFormView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\prjView\ProjectTabView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\prjView\CProjectView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\baseGridManger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\taskView\changTaskView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\taskView\myTaskView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\taskView\publishTaskView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\taskView\scoreTaskView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\taskView\TaskTabView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\prjManger\projectManger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DataBase\DepartmentDaoImp\DepartmentDaoImp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\prjManger\ProjectMangerBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\prjView\CProjectTaskView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\Dlg\DlgUserChose.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\prjManger\projectTaskManger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\GridCellCombo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\Dlg\NewProjectDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DataBase\ExcelDataDao\CExcelTaskDao.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DataBase\AbstractDaoImp\ExcelImp\ExcelDbSev.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Model\excelObj\CExcelTaskModel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\action\ExcelAction\CTaskExcelAction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Model\WorkTimeType.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\DepartManger\DepartMangerBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\DepartManger\DepartManger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\DepartManger\DepartTaskManger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\Dlg\DlgNewDepart.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\BackManger\baseBackGridManger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\BackManger\UserGridManger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\action\backStageAction\BackStageActionImp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Model\Role.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\BackView\BackStageTabView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\BackView\CUserMangerView..cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\Dlg\BackMangerDlg\DlgNewUser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\BackManger\ProductLineGridManger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\Dlg\BackMangerDlg\DlgNewProductLine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\BackView\CProductLineView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\BackManger\RolePowerManger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\Dlg\BackMangerDlg\SetRolePower.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\BackView\RolePowerView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\BackManger\WorkTimeTypeGridManger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\BackView\WorkTypeView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\Dlg\BackMangerDlg\NewWorkType.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\UI\CMultiLineListCtrl\MultiLineListCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\Output\OutputWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\UI\CMultiLineListCtrl\MultiLineListBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\UI\COutputList\OutputList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\Output\AbstractOutputManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SrcLib\XMLWrapper\XMLParser\XMLCommonDef.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SrcLib\XMLWrapper\XMLParser\XMLDOMFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SrcLib\XMLWrapper\XMLParser\XMLDOMNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SrcLib\XMLWrapper\XMLParser\XMLDOMNodes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SrcLib\XMLWrapper\XMLSchema\XMLSOMAttribute.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SrcLib\XMLWrapper\XMLSchema\XMLSOMElement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SrcLib\XMLWrapper\XMLSchema\XMLSOMFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\Output\systemOutput\SvrOutputManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\Output\systemOutput\SvrOutputList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\Output\ClientOutputManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\WatchThread\WatchTaskThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\Dlg\workHour\ExportWorkHourDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\action\factory\actionServerFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\action\factory\actionWatchServerFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\Dlg\review\DepartProcessReview.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\Dlg\review\ProjectProcessReviewDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DataBase\system\WorkHourDb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Model\WorkHourData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DataBase\system\SystemConfigDbAdo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Model\ProjectStep.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\Dlg\workHour\AskForLeaveDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\action\workHourAction\WorkHourSeverImp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\action\SystemConfig\SystemConfigImp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\gridManger\WorkHourManger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\taskView\WorkHourView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\Dlg\review\CModiyTaskScoreDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\action\ExcelAction\CExportPerformanceTable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\gridManger\ForecastWorkHour.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\taskView\ForecastWorkHourView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\prjView\CProjectScheduleView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\print\PreView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\print\MyView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DataBase\UserDaoImp\CUserDaoImp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DataBase\TaskDaoImp\CTaskDaoImp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\Dlg\DlgTaskPictrueView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\UI\BluFontBotton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\UI\NewEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\DepartView\CDepartTaskView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\DepartView\CDepartView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainFrame\view\DepartView\DepartTabView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Sid_Project_Manger.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

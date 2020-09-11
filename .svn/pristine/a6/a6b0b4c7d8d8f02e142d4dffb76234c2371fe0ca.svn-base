@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{030BCEDF-A6C7-4499-9699-8426DCA38A72}</ProjectGuid>
+    <RootNamespace>Sid_Project_Manger</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Sid_Project_Manger.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Bin\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Output\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Bin\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Output\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\boost;$(ROOT-DIR);$(SRC-DIR);$(SRC-DIR)\Model\;$(SolutionDir)\Model;$(SRC-DIR)\MainFrm\;$(SRC-DIR)\Tools\;$(SRC-DIR)\Tools\SingletonTemplate\;$(SRC-DIR)\Tools\BaseThread\;$(SolutionDir)\Src;$(SolutionDir)\Src\MainFrame\;$(SRC-DIR)\Tools\UtilityTool\;$(SRC-DIR)\MainFrame\view;$(SRC-DIR)\MainFrame\view\taskView</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\boost_1_49_0\libs\regex\build\vc90;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\classview.bmp" />
+    <None Include="res\classview_hc.bmp" />
+    <None Include="res\class_view.ico" />
+    <None Include="res\class_view_hc.ico" />
+    <None Include="res\Dialog\button_cancel.bmp" />
+    <None Include="res\Dialog\button_delete.bmp" />
+    <None Include="res\explorer.bmp" />
+    <None Include="res\explorer_hc.bmp" />
+    <None Include="res\fileview.bmp" />
+    <None Include="res\fileview_hc.bmp" />
+    <None Include="res\file_view.ico" />
+    <None Include="res\file_view_hc.ico" />
+    <None Include="res\menuimages.bmp" />
+    <None Include="res\menuimages_hc.bmp" />
+    <None Include="res\output_wnd.ico" />
+    <None Include="res\output_wnd_hc.ico" />
+    <None Include="res\properties.bmp" />
+    <None Include="res\properties_hc.bmp" />
+    <None Include="res\properties_wnd.ico" />
+    <None Include="res\properties_wnd_hc.ico" />
+    <None Include="res\Sid_Project_Manger.ico" />
+    <None Include="res\Sid_Project_Manger.rc2" />
+    <None Include="res\Sid_Project_MangerDoc.ico" />
+    <None Include="res\sort.bmp" />
+    <None Include="res\sort_hc.bmp" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\Toolbar256.bmp" />
+    <None Include="UserImages.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataBase\AbstractDaoImp\base\DbSev.h" />
+    <ClInclude Include="Src\action\ExcelAction\CTaskExcelAction.h" />
+    <ClInclude Include="Src\action\inc\TaskExcelActionInc.h" />
+    <ClInclude Include="Src\DataBase\AbstractDaoImp\ExcelImp\ExcelDbSev.h" />
+    <ClInclude Include="Src\DataBase\ExcelDataDao\CExcelTaskDao.h" />
+    <ClInclude Include="Src\DataBase\inc\excel\CExcelBaseInc.h" />
+    <ClInclude Include="Src\DataBase\inc\excel\CExcelTaskDaoInc.h" />
+    <ClInclude Include="Src\MainFrame\Dlg\DlgUserChose.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Src\action\changeAction\changeActionImp.h" />
+    <ClInclude Include="Src\action\connectAction\connectActionImp.h" />
+    <ClInclude Include="Src\action\departAction\departSeverImp.h" />
+    <ClInclude Include="Src\action\factory\actionServerFactory.h" />
+    <ClInclude Include="src\action\inc\changeactioninterface.h" />
+    <ClInclude Include="Src\action\inc\connectDbseverInterface.h" />
+    <ClInclude Include="Src\action\inc\departSeverInterface.h" />
+    <ClInclude Include="Src\action\inc\loginActionInterfac.h" />
+    <ClInclude Include="Src\action\inc\projectSeverInterface.h" />
+    <ClInclude Include="Src\action\inc\scheduleAcionInterface.h" />
+    <ClInclude Include="Src\action\inc\taskSeverInterface.h" />
+    <ClInclude Include="Src\action\ProjectAction\projectSever.h" />
+    <ClInclude Include="Src\action\ScheduleAction\ScheduleAction.h" />
+    <ClInclude Include="Src\action\UserAction\LoginActionImp.h" />
+    <ClInclude Include="Src\action\TaskAction\taskSeverImp.h" />
+    <ClInclude Include="Src\DataBase\AbstractDaoImp\base\AdoDatabase.h" />
+    <ClInclude Include="Src\DataBase\AbstractDaoImp\base\AdoRecordset.h" />
+    <ClInclude Include="Src\DataBase\AbstractDaoImp\MySqlImp\DbSev.h" />
+    <ClInclude Include="Src\DataBase\ChangeDaoImp\changeDaoImp.h" />
+    <ClInclude Include="Src\DataBase\DepartmentDaoImp\DepartmentDaoImp.h" />
+    <ClInclude Include="Src\DataBase\factory\CDaoFactory.h" />
+    <ClInclude Include="Src\DataBase\inc\changeDaointerface.h" />
+    <ClInclude Include="src\database\inc\cuserdaointerface.h" />
+    <ClInclude Include="src\database\inc\daosupportinterface.h" />
+    <ClInclude Include="Src\DataBase\inc\departmentInterface.h" />
+    <ClInclude Include="Src\DataBase\inc\daocomonDef.h" />
+    <ClInclude Include="Src\DataBase\inc\projectDbDaoInterface.h" />
+    <ClInclude Include="Src\DataBase\inc\taskdaointerface.h" />
+    <ClInclude Include="Src\DataBase\Project\projectDbDaoImp.h" />
+    <ClInclude Include="Src\DataBase\TaskDaoImp\CTaskDaoImp.h" />
+    <ClInclude Include="Src\DataBase\UserDaoImp\CUserDaoImp.h" />
+    <ClInclude Include="Src\DataBase\UserServer\CUserDaoImp.h" />
+    <ClInclude Include="Src\MainFrame\Dlg\CComonDlg.h" />
+    <ClInclude Include="Src\MainFrame\Dlg\ChangeApplyFor.h" />
+    <ClInclude Include="Src\MainFrame\Dlg\ChangeReviewDlg.h" />
+    <ClInclude Include="Src\MainFrame\Dlg\FinisTaskDlg.h" />
+    <ClInclude Include="Src\MainFrame\Dlg\hangePswDlg.h" />
+    <ClInclude Include="Src\MainFrame\Dlg\NewProjectDlg.h" />
+    <ClInclude Include="Src\MainFrame\Dlg\NewTaskDlg.h" />
+    <ClInclude Include="Src\MainFrame\Dlg\StartTaskDlg.h" />
+    <ClInclude Include="Src\MainFrame\Dlg\StopTaskDlg.h" />
+    <ClInclude Include="Src\MainFrame\infomsg\PopProgressMsgTheard.h" />
+    <ClInclude Include="Src\MainFrame\MainFrm.h" />
+    <ClInclude Include="Src\MainFrame\messageDef.h" />
+    <ClInclude Include="Src\MainFrame\OutputWnd.h" />
+    <ClInclude Include="Src\MainFrame\Sid_Project_Manger.h" />
+    <ClInclude Include="Src\MainFrame\Sid_Project_MangerDoc.h" />
+    <ClInclude Include="Src\MainFrame\Sid_Project_MangerView.h" />
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\AbstractGridViewManager.h" />
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\CellRange.h" />
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\comondef\comondef.h" />
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\comondef\RichEditCtrlEx.h" />
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\GridCell.h" />
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\GridCellBase.h" />
+    <ClInclude Include="src\mainframe\ui\cgridctrl\gridctrl.h" />
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\GridDropTarget.h" />
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\GridMemDC.h" />
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\InPlaceEdit.h" />
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\MemDC.h" />
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\gridCellButton.h" />
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\GridCellCheck.h" />
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\GridCellCombo.h" />
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\GridCellDateTime.h" />
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\GridCellNumeric.h" />
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\GridCellProgress.h" />
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\GridCellRich.h" />
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\GridURLCell.h" />
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\InPlaceRichEdit.h" />
+    <ClInclude Include="Src\MainFrame\UI\CGridCtrl\TitleTip.h" />
+    <ClInclude Include="Src\MainFrame\UI\CProgressDialog\CTPBMemDC.h" />
+    <ClInclude Include="src\mainframe\ui\cprogressdialog\progressdialog.h" />
+    <ClInclude Include="src\mainframe\ui\cprogressdialog\textprogressctrl.h" />
+    <ClInclude Include="Src\MainFrame\view\BaseFormView.h" />
+    <ClInclude Include="Src\MainFrame\view\baseGridManger.h" />
+    <ClInclude Include="Src\MainFrame\view\DepartManger\DepartMangerBase.h" />
+    <ClInclude Include="Src\MainFrame\view\DepartManger\DepartManger.h" />
+    <ClInclude Include="Src\MainFrame\view\DepartManger\departTaskManger.h" />
+    <ClInclude Include="Src\MainFrame\view\DepartView\CDepartView.h" />
+    <ClInclude Include="Src\MainFrame\view\DepartView\DepartTabView.h" />
+    <ClInclude Include="Src\MainFrame\view\gridManger\changeReviewManger.h" />
+    <ClInclude Include="Src\MainFrame\view\gridManger\myTaskGirdManager.h" />
+    <ClInclude Include="Src\MainFrame\view\gridManger\publishTaskManger.h" />
+    <ClInclude Include="Src\MainFrame\view\gridManger\scheduleManger.h" />
+    <ClInclude Include="Src\MainFrame\view\gridManger\scoreTaskManger.h" />
+    <ClInclude Include="Src\MainFrame\view\prjManger\projectManger.h" />
+    <ClInclude Include="Src\MainFrame\view\prjManger\ProjectMangerBase.h" />
+    <ClInclude Include="Src\MainFrame\view\prjManger\projectTaskManger.h" />
+    <ClInclude Include="Src\MainFrame\view\prjView\CProjectTaskView.h" />
+    <ClInclude Include="Src\MainFrame\view\prjView\CProjectView.h" />
+    <ClInclude Include="Src\MainFrame\view\prjView\ProjectTabView.h" />
+    <ClInclude Include="Src\MainFrame\view\taskView\changTaskView.h" />
+    <ClInclude Include="Src\MainFrame\view\taskView\myTaskView.h" />
+    <ClInclude Include="Src\MainFrame\view\taskView\publishTaskView.h" />
+    <ClInclude Include="Src\MainFrame\view\taskView\scheduleReviewView.h" />
+    <ClInclude Include="Src\MainFrame\view\taskView\scoreTaskView.h" />
+    <ClInclude Include="Src\MainFrame\view\taskView\TaskTabView.h" />
+    <ClInclude Include="Src\Model\department.h" />
+    <ClInclude Include="Src\Model\excelObj\CExcelTaskModel.h" />
+    <ClInclude Include="Src\Model\power.h" />
+    <ClInclude Include="Src\Model\Project.h" />
+    <ClInclude Include="Src\Model\ProductLine.h" />
+    <ClInclude Include="Src\Model\Role.h" />
+    <ClInclude Include="Src\Model\Schedule.h" />
+    <ClInclude Include="Src\Model\TaskChange.h" />
+    <ClInclude Include="Src\Model\TaskModel.h" />
+    <ClInclude Include="Src\Model\TaskStaus.h" />
+    <ClInclude Include="Src\Model\TypeDefHead.h" />
+    <ClInclude Include="Src\Model\User.h" />
+    <ClInclude Include="Src\Model\WorkTimeType.h" />
+    <ClInclude Include="Src\Tools\BaseThread\BaseThread.h" />
+    <ClInclude Include="Src\Tools\BaseThread\SmartLock.h" />
+    <ClInclude Include="Src\Tools\MD5\Md5Class.h" />
+    <ClInclude Include="Src\Tools\SingletonTemplate\SingletonTemplate.h" />
+    <ClInclude Include="Src\Tools\TRACE_D\trace_d.h" />
+    <ClInclude Include="Src\Tools\UtilityTool\UtilityTool.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\action\ExcelAction\CTaskExcelAction.cpp" />
+    <ClCompile Include="Src\DataBase\AbstractDaoImp\ExcelImp\ExcelDbSev.cpp" />
+    <ClCompile Include="Src\DataBase\ExcelDataDao\CExcelTaskDao.cpp" />
+    <ClCompile Include="Src\MainFrame\Dlg\DlgUserChose.cpp" />
+    <ClCompile Include="Src\action\changeAction\changeActionImp.cpp" />
+    <ClCompile Include="Src\action\connectAction\connectActionImp.cpp" />
+    <ClCompile Include="Src\action\departAction\departSeverImp.cpp" />
+    <ClCompile Include="Src\action\factory\actionServerFactory.cpp" />
+    <ClCompile Include="Src\action\ProjectAction\projectSeverImp.cpp" />
+    <ClCompile Include="Src\action\ScheduleAction\ScheduleAction.cpp" />
+    <ClCompile Include="Src\action\UserAction\LoginActionImp.cpp" />
+    <ClCompile Include="Src\action\TaskAction\taskSeverImp.cpp" />
+    <ClCompile Include="Src\DataBase\AbstractDaoImp\base\AdoDatabase.cpp" />
+    <ClCompile Include="Src\DataBase\AbstractDaoImp\base\AdoRecordset.cpp" />
+    <ClCompile Include="Src\DataBase\AbstractDaoImp\MySqlImp\DbSev.cpp" />
+    <ClCompile Include="Src\DataBase\ChangeDaoImp\changDaoImp.cpp" />
+    <ClCompile Include="Src\DataBase\DepartmentDaoImp\DepartmentDaoImp.cpp" />
+    <ClCompile Include="Src\DataBase\factory\CDaoFactory.cpp" />
+    <ClCompile Include="Src\DataBase\Project\projectDbDaoImp.cpp" />
+    <ClCompile Include="Src\DataBase\TaskDaoImp\CTaskDaoImp.cpp" />
+    <ClCompile Include="Src\DataBase\UserDaoImp\CUserDaoImp.cpp" />
+    <ClCompile Include="Src\MainFrame\Dlg\CComonDlg.cpp" />
+    <ClCompile Include="Src\MainFrame\Dlg\ChangeApplyFor.cpp" />
+    <ClCompile Include="Src\MainFrame\Dlg\ChangeReviewDlg.cpp" />
+    <ClCompile Include="Src\MainFrame\Dlg\FinisTaskDlg.cpp" />
+    <ClCompile Include="Src\MainFrame\Dlg\hangePswDlg.cpp" />
+    <ClCompile Include="Src\MainFrame\Dlg\NewProjectDlg.cpp" />
+    <ClCompile Include="Src\MainFrame\Dlg\NewTaskDlg.cpp" />
+    <ClCompile Include="Src\MainFrame\Dlg\StartTaskDlg.cpp" />
+    <ClCompile Include="Src\MainFrame\Dlg\StopTaskDlg.cpp" />
+    <ClCompile Include="Src\MainFrame\infomsg\PopProgressMsgTheard.cpp" />
+    <ClCompile Include="Src\MainFrame\MainFrm.cpp" />
+    <ClCompile Include="Src\MainFrame\OutputWnd.cpp" />
+    <ClCompile Include="Src\MainFrame\Sid_Project_Manger.cpp" />
+    <ClCompile Include="Src\MainFrame\Sid_Project_MangerDoc.cpp" />
+    <ClCompile Include="Src\MainFrame\Sid_Project_MangerView.cpp" />
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\AbstractGridViewManager.cpp" />
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\comondef\RichEidtCtrlEx.cpp" />
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\GridCell.cpp" />
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\GridCellBase.cpp" />
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\GridCtrl.cpp" />
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\GridDropTarget.cpp" />
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\InPlaceEdit.cpp" />
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\gridCellButton.cpp" />
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\GridCellCheck.cpp" />
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\GridCellCombo.cpp" />
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\GridCellDateTime.cpp" />
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\GridCellNumeric.cpp" />
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\GridCellProgress.cpp" />
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\GridCellRich.cpp" />
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\GridURLCell.cpp" />
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\NewCellTypes\InPlaceRichEdit.cpp" />
+    <ClCompile Include="Src\MainFrame\UI\CGridCtrl\TitleTip.cpp" />
+    <ClCompile Include="Src\MainFrame\UI\CProgressDialog\ProgressDialog.cpp" />
+    <ClCompile Include="Src\MainFrame\UI\CProgressDialog\TextProgressCtrl.cpp" />
+    <ClCompile Include="Src\MainFrame\view\BaseFormView.cpp" />
+    <ClCompile Include="Src\MainFrame\view\baseGridManger.cpp" />
+    <ClCompile Include="Src\MainFrame\view\DepartManger\DepartMangerBase.cpp" />
+    <ClCompile Include="Src\MainFrame\view\DepartManger\DepartManger.cpp" />
+    <ClCompile Include="Src\MainFrame\view\DepartManger\DepartTaskManger.cpp" />
+    <ClCompile Include="Src\MainFrame\view\DepartView\CDepartView.cpp" />
+    <ClCompile Include="Src\MainFrame\view\DepartView\DepartTabView.cpp" />
+    <ClCompile Include="Src\MainFrame\view\gridManger\changeReviewManger.cpp" />
+    <ClCompile Include="Src\MainFrame\view\gridManger\myTaskGirdManager.cpp" />
+    <ClCompile Include="Src\MainFrame\view\gridManger\publishTaskManger.cpp" />
+    <ClCompile Include="Src\MainFrame\view\gridManger\scheduleManger.cpp" />
+    <ClCompile Include="Src\MainFrame\view\gridManger\scoreTaskManger.cpp" />
+    <ClCompile Include="Src\MainFrame\view\prjManger\projectManger.cpp" />
+    <ClCompile Include="Src\MainFrame\view\prjManger\ProjectMangerBase.cpp" />
+    <ClCompile Include="Src\MainFrame\view\prjManger\projectTaskManger.cpp" />
+    <ClCompile Include="Src\MainFrame\view\prjView\CProjectTaskView.cpp" />
+    <ClCompile Include="Src\MainFrame\view\prjView\CProjectView.cpp" />
+    <ClCompile Include="Src\MainFrame\view\prjView\ProjectTabView.cpp" />
+    <ClCompile Include="Src\MainFrame\view\taskView\changTaskView.cpp" />
+    <ClCompile Include="Src\MainFrame\view\taskView\myTaskView.cpp" />
+    <ClCompile Include="Src\MainFrame\view\taskView\publishTaskView.cpp" />
+    <ClCompile Include="Src\MainFrame\view\taskView\scheduleReviewView.cpp" />
+    <ClCompile Include="Src\MainFrame\view\taskView\scoreTaskView.cpp" />
+    <ClCompile Include="Src\MainFrame\view\taskView\TaskTabView.cpp" />
+    <ClCompile Include="Src\Model\department.cpp" />
+    <ClCompile Include="Src\Model\excelObj\CExcelTaskModel.cpp" />
+    <ClCompile Include="Src\Model\ProductLine.cpp" />
+    <ClCompile Include="Src\Model\Project.cpp" />
+    <ClCompile Include="Src\Model\schedule.cpp" />
+    <ClCompile Include="Src\Model\TaskChange.cpp" />
+    <ClCompile Include="Src\Model\TaskModel.cpp" />
+    <ClCompile Include="Src\Model\TaskStaus.cpp" />
+    <ClCompile Include="Src\Model\User.cpp" />
+    <ClCompile Include="Src\Model\WorkTimeType.cpp" />
+    <ClCompile Include="Src\Tools\BaseThread\BaseThread.cpp" />
+    <ClCompile Include="Src\Tools\BaseThread\SmartLock.cpp" />
+    <ClCompile Include="Src\Tools\MD5\Md5Class.cpp" />
+    <ClCompile Include="Src\Tools\UtilityTool\UtilityTool.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Sid_Project_Manger.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Sid_Project_Manger.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

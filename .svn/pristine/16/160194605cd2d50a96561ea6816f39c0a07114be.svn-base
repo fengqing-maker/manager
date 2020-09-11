@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <ROOT-DIR>$(SolutionDir)Sid_Project_Manger\</ROOT-DIR>
+    <SRC_DIR>$(ROOT-DIR)Src\</SRC_DIR>
+    <LIB-DIR>$(ROOT-DIR)Lib\</LIB-DIR>
+    <OUTPUT-DIR>$(ROOT-DIR)Output\</OUTPUT-DIR>
+    <BOOST-DIR>D:\boost_1_49_0</BOOST-DIR>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup />
+  <ItemGroup>
+    <BuildMacro Include="ROOT-DIR">
+      <Value>$(ROOT-DIR)</Value>
+    </BuildMacro>
+    <BuildMacro Include="SRC_DIR">
+      <Value>$(SRC_DIR)</Value>
+    </BuildMacro>
+    <BuildMacro Include="LIB-DIR">
+      <Value>$(LIB-DIR)</Value>
+    </BuildMacro>
+    <BuildMacro Include="OUTPUT-DIR">
+      <Value>$(OUTPUT-DIR)</Value>
+    </BuildMacro>
+    <BuildMacro Include="BOOST-DIR">
+      <Value>$(BOOST-DIR)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>
